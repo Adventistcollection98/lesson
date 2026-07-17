@@ -1,0 +1,18 @@
+{
+  "Quarter": "2026-Q3",
+  "Theme": "The Promise of Rest",
+  "Lessons": {
+    "1": {
+      "Title": "Living in a 24/7 Society",
+      "Days": {
+        "Sabbath": "Memory Text: Come to me... \n\n Lesson introduction text here...",
+        "Sunday": "Sunday study text here...",
+        "Monday": "Monday study text here...",
+        "Tuesday": "Tuesday study text here...",
+        "Wednesday": "Wednesday study text here...",
+        "Thursday": "Thursday study text here...",
+        "Friday": "Friday study text here..."
+      }
+    }
+  }
+}
