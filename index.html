@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDA Quarterly Lessons</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Reuse or expand your previous CSS styling -->
+</head>
+<body>
+
+    <!-- Target Container for Category Selection -->
+    <div id="category-bar">
+        <button class="cat-btn active" data-category="adults">Adult Lesson</button>
+        <button class="cat-btn" data-category="children">Children</button>
+        <button class="cat-btn" data-category="mission">Mission Stories</button>
+    </div>
+
+    <div id="app-container" style="display: flex; height: calc(100vh - 50px);">
+        <!-- Sidebar Navigation -->
+        <div id="sidebar" style="width: 260px; background: #f5f5f7; padding: 15px; overflow-y: auto;">
+            <label id="sidebar-label">Lessons</label>
+            <div id="lesson-grid"></div>
+            
+            <label style="margin-top: 15px; display: block;">Days / Parts</label>
+            <div id="day-list"></div>
+        </div>
+
+        <!-- Main Study Text Display -->
+        <div id="main-content" style="flex: 1; padding: 30px; overflow-y: auto;">
+            <div id="content">Select a lesson to begin studying.</div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
